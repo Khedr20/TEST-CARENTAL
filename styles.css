@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-color: rgb(2, 2, 42);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+.container {
+    /*background-color: #fff;*/
+    padding: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px #aaa;
+    border-radius: 10px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-size: 1.2em;
+    margin: 0 10px 0 0;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border: 1px solid #555;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #5d5d5d;
+    color: rgb(187, 187, 187);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.signup-bg {
+    background-image: url("https://images.unsplash.com/photo-1614026480209-cd9934144671?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym13JTIwbTR8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover; 
+}
+
+.login-bg {
+    background-image: url("https://www.mbusa.com/content/dam/mb-nafta/us/future-vehicles/my24/amg-c63-s-e-performance/large-tile-grid/2024-AMG-C63S-SEDAN-LTG-01-DR.jpg");
+    background-size: cover; 
+}
+
+
+.dashboard-bg {
+    background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/bmw-m4-road-test-10_0.jpg?itok=XQ_CU52C");
+    background-size: cover; 
+}
+
+.booking-bg {
+    background-image: url("https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fnissan%2Fgt-r%2Fnissan-gt-r.jpg%3Fv%3D25&w=3840&q=75");
+    background-size: cover; 
+}
+
+@media only screen and (min-width: 600px) {
+    .signup-bg {
+      background-image: url("https://images.unsplash.com/photo-1614026480209-cd9934144671?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym13JTIwbTR8ZW58MHx8MHx8&w=1000&q=80");
+    }
+}
+  
+@media only screen and (max-width: 599px) {
+    .signup-bg {
+      background-image: url("https://images.unsplash.com/photo-1614026480209-cd9934144671?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym13JTIwbTR8ZW58MHx8MHx8&w=1000&q=80");
+    }
+}
+
+.car-model-image {
+    width: 100px; /* Set the width of the image */
+    height: 100px; /* Set the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+}
+
+  
